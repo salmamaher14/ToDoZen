@@ -20,12 +20,6 @@
     // Do any additional setup after loading the view.
 }
 
-- (IBAction)gotoTabbar:(id)sender {
-    // Instantiate the tab bar view controller
-    MyTabBarController *tabBarController = [self.storyboard instantiateViewControllerWithIdentifier:@"tabBar_screen"];
-    
-    // Push the tab bar controller onto the navigation stack
-    [self.navigationController pushViewController:tabBarController animated:YES];
-}
+
 
 @end
